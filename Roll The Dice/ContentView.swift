@@ -8,9 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var randomValue = 0
+    @State private var rotation = 0.0
     var body: some View {
-        Text("Hello, world!")
+        Text("Dice Roll")
+            .font(.largeTitle)
             .padding()
+        Image("pips \(randomValue)")
+            .resizable()
+            .frame(width: 200.0, height: 200.0, alignment: .center)
+            .padding()
+            .onTapGesture {
+                randomValue = Int.random(in: 1...6)
+            }
+        Spacer()
     }
 }
 
