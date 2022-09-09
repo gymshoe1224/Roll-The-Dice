@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2626F46928CB8A1C0077103D /* Roll_The_DiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626F46828CB8A1C0077103D /* Roll_The_DiceApp.swift */; };
+		2626F46B28CB8A1C0077103D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626F46A28CB8A1C0077103D /* ContentView.swift */; };
+		2626F46D28CB8A1D0077103D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2626F46C28CB8A1D0077103D /* Assets.xcassets */; };
+		2626F47028CB8A1D0077103D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2626F46F28CB8A1D0077103D /* Preview Assets.xcassets */; };
+		2626F47A28CB8A1D0077103D /* Roll_The_DiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626F47928CB8A1D0077103D /* Roll_The_DiceTests.swift */; };
+		2626F48428CB8A1D0077103D /* Roll_The_DiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626F48328CB8A1D0077103D /* Roll_The_DiceUITests.swift */; };
+		2626F48628CB8A1D0077103D /* Roll_The_DiceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626F48528CB8A1D0077103D /* Roll_The_DiceUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2626F47628CB8A1D0077103D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2626F45D28CB8A1C0077103D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2626F46428CB8A1C0077103D;
+			remoteInfo = "Roll The Dice";
+		};
+		2626F48028CB8A1D0077103D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2626F45D28CB8A1C0077103D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2626F46428CB8A1C0077103D;
+			remoteInfo = "Roll The Dice";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2626F46528CB8A1C0077103D /* Roll The Dice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Roll The Dice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2626F46828CB8A1C0077103D /* Roll_The_DiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roll_The_DiceApp.swift; sourceTree = "<group>"; };
+		2626F46A28CB8A1C0077103D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2626F46C28CB8A1D0077103D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2626F46F28CB8A1D0077103D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2626F47528CB8A1D0077103D /* Roll The DiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roll The DiceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2626F47928CB8A1D0077103D /* Roll_The_DiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roll_The_DiceTests.swift; sourceTree = "<group>"; };
+		2626F47F28CB8A1D0077103D /* Roll The DiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roll The DiceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2626F48328CB8A1D0077103D /* Roll_The_DiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roll_The_DiceUITests.swift; sourceTree = "<group>"; };
+		2626F48528CB8A1D0077103D /* Roll_The_DiceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roll_The_DiceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2626F46228CB8A1C0077103D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2626F47228CB8A1D0077103D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2626F47C28CB8A1D0077103D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2626F45C28CB8A1C0077103D = {
+			isa = PBXGroup;
+			children = (
+				2626F46728CB8A1C0077103D /* Roll The Dice */,
+				2626F47828CB8A1D0077103D /* Roll The DiceTests */,
+				2626F48228CB8A1D0077103D /* Roll The DiceUITests */,
+				2626F46628CB8A1C0077103D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2626F46628CB8A1C0077103D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2626F46528CB8A1C0077103D /* Roll The Dice.app */,
+				2626F47528CB8A1D0077103D /* Roll The DiceTests.xctest */,
+				2626F47F28CB8A1D0077103D /* Roll The DiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2626F46728CB8A1C0077103D /* Roll The Dice */ = {
+			isa = PBXGroup;
+			children = (
+				2626F46828CB8A1C0077103D /* Roll_The_DiceApp.swift */,
+				2626F46A28CB8A1C0077103D /* ContentView.swift */,
+				2626F46C28CB8A1D0077103D /* Assets.xcassets */,
+				2626F46E28CB8A1D0077103D /* Preview Content */,
+			);
+			path = "Roll The Dice";
+			sourceTree = "<group>";
+		};
+		2626F46E28CB8A1D0077103D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2626F46F28CB8A1D0077103D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2626F47828CB8A1D0077103D /* Roll The DiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				2626F47928CB8A1D0077103D /* Roll_The_DiceTests.swift */,
+			);
+			path = "Roll The DiceTests";
+			sourceTree = "<group>";
+		};
+		2626F48228CB8A1D0077103D /* Roll The DiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2626F48328CB8A1D0077103D /* Roll_The_DiceUITests.swift */,
+				2626F48528CB8A1D0077103D /* Roll_The_DiceUITestsLaunchTests.swift */,
+			);
+			path = "Roll The DiceUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2626F46428CB8A1C0077103D /* Roll The Dice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2626F48928CB8A1D0077103D /* Build configuration list for PBXNativeTarget "Roll The Dice" */;
+			buildPhases = (
+				2626F46128CB8A1C0077103D /* Sources */,
+				2626F46228CB8A1C0077103D /* Frameworks */,
+				2626F46328CB8A1C0077103D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Roll The Dice";
+			productName = "Roll The Dice";
+			productReference = 2626F46528CB8A1C0077103D /* Roll The Dice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2626F47428CB8A1D0077103D /* Roll The DiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2626F48C28CB8A1D0077103D /* Build configuration list for PBXNativeTarget "Roll The DiceTests" */;
+			buildPhases = (
+				2626F47128CB8A1D0077103D /* Sources */,
+				2626F47228CB8A1D0077103D /* Frameworks */,
+				2626F47328CB8A1D0077103D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2626F47728CB8A1D0077103D /* PBXTargetDependency */,
+			);
+			name = "Roll The DiceTests";
+			productName = "Roll The DiceTests";
+			productReference = 2626F47528CB8A1D0077103D /* Roll The DiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2626F47E28CB8A1D0077103D /* Roll The DiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2626F48F28CB8A1D0077103D /* Build configuration list for PBXNativeTarget "Roll The DiceUITests" */;
+			buildPhases = (
+				2626F47B28CB8A1D0077103D /* Sources */,
+				2626F47C28CB8A1D0077103D /* Frameworks */,
+				2626F47D28CB8A1D0077103D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2626F48128CB8A1D0077103D /* PBXTargetDependency */,
+			);
+			name = "Roll The DiceUITests";
+			productName = "Roll The DiceUITests";
+			productReference = 2626F47F28CB8A1D0077103D /* Roll The DiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2626F45D28CB8A1C0077103D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2626F46428CB8A1C0077103D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					2626F47428CB8A1D0077103D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2626F46428CB8A1C0077103D;
+					};
+					2626F47E28CB8A1D0077103D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2626F46428CB8A1C0077103D;
+					};
+				};
+			};
+			buildConfigurationList = 2626F46028CB8A1C0077103D /* Build configuration list for PBXProject "Roll The Dice" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2626F45C28CB8A1C0077103D;
+			productRefGroup = 2626F46628CB8A1C0077103D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2626F46428CB8A1C0077103D /* Roll The Dice */,
+				2626F47428CB8A1D0077103D /* Roll The DiceTests */,
+				2626F47E28CB8A1D0077103D /* Roll The DiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2626F46328CB8A1C0077103D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2626F47028CB8A1D0077103D /* Preview Assets.xcassets in Resources */,
+				2626F46D28CB8A1D0077103D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2626F47328CB8A1D0077103D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2626F47D28CB8A1D0077103D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2626F46128CB8A1C0077103D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2626F46B28CB8A1C0077103D /* ContentView.swift in Sources */,
+				2626F46928CB8A1C0077103D /* Roll_The_DiceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2626F47128CB8A1D0077103D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2626F47A28CB8A1D0077103D /* Roll_The_DiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2626F47B28CB8A1D0077103D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2626F48628CB8A1D0077103D /* Roll_The_DiceUITestsLaunchTests.swift in Sources */,
+				2626F48428CB8A1D0077103D /* Roll_The_DiceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2626F47728CB8A1D0077103D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2626F46428CB8A1C0077103D /* Roll The Dice */;
+			targetProxy = 2626F47628CB8A1D0077103D /* PBXContainerItemProxy */;
+		};
+		2626F48128CB8A1D0077103D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2626F46428CB8A1C0077103D /* Roll The Dice */;
+			targetProxy = 2626F48028CB8A1D0077103D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2626F48728CB8A1D0077103D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2626F48828CB8A1D0077103D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2626F48A28CB8A1D0077103D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Roll The Dice/Preview Content\"";
+				DEVELOPMENT_TEAM = Z7UWK396W7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cmark.Roll-The-Dice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2626F48B28CB8A1D0077103D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Roll The Dice/Preview Content\"";
+				DEVELOPMENT_TEAM = Z7UWK396W7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cmark.Roll-The-Dice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2626F48D28CB8A1D0077103D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z7UWK396W7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cmark.Roll-The-DiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roll The Dice.app/Roll The Dice";
+			};
+			name = Debug;
+		};
+		2626F48E28CB8A1D0077103D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z7UWK396W7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cmark.Roll-The-DiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roll The Dice.app/Roll The Dice";
+			};
+			name = Release;
+		};
+		2626F49028CB8A1D0077103D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z7UWK396W7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cmark.Roll-The-DiceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Roll The Dice";
+			};
+			name = Debug;
+		};
+		2626F49128CB8A1D0077103D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z7UWK396W7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cmark.Roll-The-DiceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Roll The Dice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2626F46028CB8A1C0077103D /* Build configuration list for PBXProject "Roll The Dice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2626F48728CB8A1D0077103D /* Debug */,
+				2626F48828CB8A1D0077103D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2626F48928CB8A1D0077103D /* Build configuration list for PBXNativeTarget "Roll The Dice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2626F48A28CB8A1D0077103D /* Debug */,
+				2626F48B28CB8A1D0077103D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2626F48C28CB8A1D0077103D /* Build configuration list for PBXNativeTarget "Roll The DiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2626F48D28CB8A1D0077103D /* Debug */,
+				2626F48E28CB8A1D0077103D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2626F48F28CB8A1D0077103D /* Build configuration list for PBXNativeTarget "Roll The DiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2626F49028CB8A1D0077103D /* Debug */,
+				2626F49128CB8A1D0077103D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2626F45D28CB8A1C0077103D /* Project object */;
+}
