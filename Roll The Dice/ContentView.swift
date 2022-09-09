@@ -17,9 +17,14 @@ struct ContentView: View {
         Image("pips \(randomValue)")
             .resizable()
             .frame(width: 200.0, height: 200.0, alignment: .center)
+            .rotationEffect(.degrees(rotation))
+            .rotation3DEffect(.degrees(rotation), axis: (x: 1, y: 1, z: 0))
             .padding()
             .onTapGesture {
                 randomValue = Int.random(in: 1...6)
+                withAnimation(.default) {
+                    rotation += 360
+                }
             }
         Spacer()
     }
